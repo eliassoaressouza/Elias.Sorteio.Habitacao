@@ -9,7 +9,6 @@ namespace Elias.Sorteio.Habitacao.Shared.Core
     public class PessoaCore: IPessoaCore
     {
 
-
         public List<Pessoa> ObterLista()
         {
             var lista = new List<Pessoa>();
