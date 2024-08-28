@@ -1,0 +1,6 @@
+@Elias.Sorteio.Habitacao.WebApi_HostAddress = http://localhost:5087
+
+GET {{Elias.Sorteio.Habitacao.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
