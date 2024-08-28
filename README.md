@@ -1,4 +1,7 @@
 <h1 align="center">Projeto Sorteio Habitação </h1>
+
+Aspnet Core com ReactJS
+
 <p>Alterar a linha 12 variavel caminhoArquivo da classe PessoaCore para buscar pelo arquivo ex: C:\\Users\\Elias Soares\\Desktop\\Projetos-Code\\Habitacao-Teste\\Elias.Sorteio.Habitacao\\Elias.Sorteio.Habitacao.Shared\\Files </p>
 
 
