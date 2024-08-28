@@ -8,13 +8,15 @@ namespace Elias.Sorteio.Habitacao.Shared.Core
 {
     public class PessoaCore: IPessoaCore
     {
-
+        //alterar esta linha para o caminho do arquivo Elias.Sorteio.Habitacao.Shared\\Files
+        private readonly string caminhoArquivo 
+            = "C:\\Users\\Elias Soares\\Desktop\\Projetos-Code\\Habitacao-Teste\\Elias.Sorteio.Habitacao\\Elias.Sorteio.Habitacao.Shared\\Files";
         public List<Pessoa> ObterLista()
         {
             var lista = new List<Pessoa>();
             try
             {
-                var Path = "C:\\Users\\Elias Soares\\Desktop\\Projetos-Code\\Habitacao-Teste\\Elias.Sorteio.Habitacao\\Elias.Sorteio.Habitacao.Shared\\Files\\lista_pessoas.csv";
+                var Path = caminhoArquivo+ "\\lista_pessoas.csv";
                 using (var reader = new StreamReader(Path))
                 {
                     var config = new CsvConfiguration(CultureInfo.InvariantCulture)
