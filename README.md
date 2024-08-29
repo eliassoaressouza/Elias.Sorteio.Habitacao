@@ -1,4 +1,4 @@
-<h1> align="center">Projeto Sorteio Habitação </h1>
+<h1 align="center">Projeto Sorteio Habitação </h1>
 
 <h2>Aspnet Core com ReactJS</h2>
 
