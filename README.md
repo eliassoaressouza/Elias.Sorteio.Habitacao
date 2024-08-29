@@ -1,8 +1,24 @@
-<h1 align="center">Projeto Sorteio Habitação </h1>
+<h1> align="center">Projeto Sorteio Habitação </h1>
 
-Aspnet Core com ReactJS
+<h2>Aspnet Core com ReactJS</h2>
 
-<p>Alterar a linha 12 variavel caminhoArquivo da classe PessoaCore para buscar pelo arquivo ex: C:\\Users\\Elias Soares\\Desktop\\Projetos-Code\\Habitacao-Teste\\Elias.Sorteio.Habitacao\\Elias.Sorteio.Habitacao.Shared\\Files </p>
+<p>Passo a Passo para execução do projeto:</p>
+
+<p>1) Criar uma pasta em C:\Projetos e clonar o projeto nesta pasta</p>
+
+<p>2) abrir projeto com Visual Studio 2022 </p>
+
+<p>3) caso queira mudar a pasta "C:\Projetos" alterar classe PessoaCore linha 12  "C:\\Projetos"</p>
+
+<p>4) Execute a solução o projeto FrontEnd esta rodando em: "https://localhost:5173/"</p>
 
 
-Executar projetos: Elias.Sorteio.Habitacao.WebApp: elias.sorteio.habitacao.webapp.client e Elias.Sorteio.Habitacao.WebApp.Server
+
+
+<p>Observação:</p>
+<p>O projeto deverá ser executado no Visual Studio 2022</p>
+
+<p>1)  Click botão direito na Solution/Properties/</p>
+<p>2) Selecione radion button Single Startup Projects: "Elias.Sorteio.Habitacao.WebApp.Server"</p>
+
+

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Elias.Sorteio.Habitacao.Shared.Models
+﻿namespace Elias.Sorteio.Habitacao.Shared.Models
 {
     public class Pessoa
     {
